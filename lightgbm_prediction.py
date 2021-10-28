@@ -19,13 +19,13 @@ drive.mount('/content/gdrive')
 import warnings
 warnings.filterwarnings('ignore')
 data_dir = '../content/gdrive/MyDrive/optiver-realized-volatility-prediction/'
-stock_id = 0
-df = pd.DataFrame({'A': [1, 1, 1, 2, 3, 4], 'B': [8, 2, 3, 4, 5, 6]})
-df['C'] = df['B'].apply(lambda x:f'{stock_id} - {x}')
-print(f'{stock_id}-{1}')
-print(df)
-df_1 = df.groupby('A')['B'].apply(np.max)
-print(df_1)
+#stock_id = 0
+#df = pd.DataFrame({'A': [1, 1, 1, 2, 3, 4], 'B': [8, 2, 3, 4, 5, 6]})
+#df['C'] = df['B'].apply(lambda x:f'{stock_id} - {x}')
+#print(f'{stock_id}-{1}')
+#print(df)
+#df_1 = df.groupby('A')['B'].apply(np.max)
+#print(df_1)
 
 """**Functions for preprocess**
 
